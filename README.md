@@ -27,8 +27,15 @@ tel_to(number, name = nil, link_to_options = nil)
 
 ```ruby
 = tel_to '400-881-6609'
+# <a href="tel:400-881-6609">400-881-6609</a>
+```
+```ruby
 = tel_to '400-881-6609', 'ihaveu.com Customer Service'
+# <a href="tel:400-881-6609">ihaveu.com Customer Service</a>
+```
+```ruby
 = tel_to '400-881-6609', 'ihaveu.com Customer Service', target: '_blank'
+# <a href="tel:400-881-6609" target="_blank">ihaveu.com Customer Service</a>
 ```
 
 ## Credits
