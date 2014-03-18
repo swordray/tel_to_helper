@@ -1,15 +1,15 @@
 $LOAD_PATH.push File.expand_path("../lib", __FILE__)
-require 'rails-tel_to_helper/version'
+require 'tel_to_helper/version'
 
 Gem::Specification.new do |s|
-  s.name              = "rails-tel_to_helper"
-  s.version           = RailsTelToHelper::VERSION
+  s.name              = "tel_to_helper"
+  s.version           = TelToHelper::VERSION
   s.platform          = Gem::Platform::RUBY
   s.author            = ["Jianqiu Xiao"]
   s.email             = ["swordray@gmail.com"]
-  s.homepage          = "https://github.com/swordray/rails-tel_to_helper"
-  s.summary           = "Action View Telephone Link Helper."
-  s.description       = "Generate tel protocol link tag."
+  s.homepage          = "https://github.com/swordray/tel_to_helper"
+  s.summary           = "Telephone Link Tag Helper"
+  s.description       = "Generate tel protocol link tag for html view."
   s.license           = "MIT"
 
   s.files         = `git ls-files`.split("\n")

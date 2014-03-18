@@ -1,6 +1,6 @@
-# rails-tel_to_helper
+# tel_to_helper
 
-[![Gem Version](https://badge.fury.io/rb/rails-tel_to_helper.png)](http://badge.fury.io/rb/rails-tel_to_helper) [![Build Status](https://secure.travis-ci.org/swordray/rails-tel_to_helper.png?branch=master)](http://travis-ci.org/swordray/rails-tel_to_helper) [![Dependency Status](https://gemnasium.com/swordray/rails-tel_to_helper.png?travis)](https://gemnasium.com/swordray/rails-tel_to_helper) [![Code Climate](https://codeclimate.com/github/swordray/rails-tel_to_helper.png)](https://codeclimate.com/github/swordray/rails-tel_to_helper)
+[![Gem Version](https://badge.fury.io/rb/tel_to_helper.png)](http://badge.fury.io/rb/tel_to_helper) [![Build Status](https://secure.travis-ci.org/swordray/tel_to_helper.png?branch=master)](http://travis-ci.org/swordray/tel_to_helper) [![Dependency Status](https://gemnasium.com/swordray/tel_to_helper.png?travis)](https://gemnasium.com/swordray/tel_to_helper) [![Code Climate](https://codeclimate.com/github/swordray/tel_to_helper.png)](https://codeclimate.com/github/swordray/tel_to_helper)
 
 Action View Telephone Link Helper.
 
@@ -14,7 +14,7 @@ Action View Telephone Link Helper.
 Include the gem in your Gemfile:
 
 ```ruby
-gem 'rails-tel_to_helper'
+gem 'tel_to_helper'
 ```
 
 ## Usage
