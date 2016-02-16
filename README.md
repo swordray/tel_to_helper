@@ -19,29 +19,29 @@ gem 'tel_to_helper'
 
 ## Usage
 
+The parameters is almost the same as `link_to` except pass phone number to `options`.
+
 ```ruby
-tel_to(number, name = nil, link_to_options = nil)
+tel_to(name = nil, options = nil, html_options = nil, &block)
 ```
 
 ## Examples
 
 ```ruby
-= tel_to '400-881-6609'
-# => <a href="tel:400-881-6609">400-881-6609</a>
-```
-```ruby
-= tel_to '400-881-6609', 'ihaveu.com Customer Service'
-# => <a href="tel:400-881-6609">ihaveu.com Customer Service</a>
-```
-```ruby
-= tel_to '400-881-6609', 'ihaveu.com Customer Service', target: '_blank'
-# => <a href="tel:400-881-6609" target="_blank">ihaveu.com Customer Service</a>
+tel_to '000-000-0000'
+# => <a href="tel:000-000-0000">000-000-0000</a>
 ```
 
-## Credits
+```ruby
+tel_to 'My phone number', '000-000-0000'
+# => <a href="tel:000-000-0000">My phone number</a>
+```
 
-* swordray @[ihaveu](http://www.ihaveu.com/home) @[shuhai](http://tw.shuhai.org/) @[leaf](http://leaf.iacger.com)
+```ruby
+tel_to '000-000-0000', 'My phone number', target: '_blank'
+# => <a href="tel:000-000-0000" target="_blank">My phone number</a>
+```
 
 ## License
 
-Copyright © 2014 Jianqiu Xiao <swordray@gmail.com> under The [MIT License](http://opensource.org/licenses/MIT).
+Copyright © 2016 Jianqiu Xiao <swordray@gmail.com> under The [MIT License](http://opensource.org/licenses/MIT).
