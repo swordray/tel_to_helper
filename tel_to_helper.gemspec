@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.author            = ["Jianqiu Xiao"]
   s.email             = ["swordray@gmail.com"]
-  s.homepage          = "https://github.com/swordray/tel_to_helper"
+  s.homepage          = "https://bailushuyuan.org"
   s.summary           = "Telephone Link Tag Helper"
   s.description       = "Generate tel protocol link tag for html view."
   s.license           = "MIT"

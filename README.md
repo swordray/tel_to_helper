@@ -42,6 +42,10 @@ tel_to '000-000-0000', 'My phone number', target: '_blank'
 # => <a href="tel:000-000-0000" target="_blank">My phone number</a>
 ```
 
+## Sponsors
+
+* [BaiLu ShuYuan](https://bailushuyuan.org)
+
 ## License
 
 Copyright © 2016 Jianqiu Xiao <swordray@gmail.com> under The [MIT License](http://opensource.org/licenses/MIT).
